@@ -1,6 +1,6 @@
 import React from "react";
 
-type NavBarProps = {};
+interface NavBarProps {};
 
 const NavBar = (props: NavBarProps) => {
   return <div>NavBar</div>;
