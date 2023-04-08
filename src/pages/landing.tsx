@@ -1,13 +1,18 @@
-import { FC } from "react";
+import React from "react";
+import { Header } from "../components/Header/Header";
+import { Hero } from "../components/Hero/Hero";
+import { Features } from "../components/Features/Features";
+import { About } from "../components/About/About";
 
-interface ILanding {
+type LandingProps = {};
 
-}
-
-export const Landing: FC<ILanding> = () => {
+export const Landing = (props: LandingProps) => {
     return (
         <>
-            <h1>Landing Page</h1>
+            <Header />
+            <Hero />
+            <Features />
+            <About />
         </>
     );
 };
